@@ -8,7 +8,8 @@ function App() {
 				Jessica Randall London, United Kingdom "Front-end developer and avid
 				reader." GitHub Frontend Mentor LinkedIn Twitter Instagram
 			</div>
-			<div className="attribution">
+
+			{/* <div className="attribution">
 				Challenge by{' '}
 				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
 					Frontend Mentor
@@ -18,7 +19,7 @@ function App() {
 					Marcus Herrera
 				</a>
 				.
-			</div>
+			</div> */}
 		</>
 	);
 }
