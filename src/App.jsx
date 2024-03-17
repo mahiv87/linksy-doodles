@@ -1,9 +1,11 @@
+import { useState } from 'react';
+
 import './App.css';
 import CardComponent from './components/Card/CardComponent';
 import avatar from './assets/images/avatar-jessica.jpeg';
 
 function App() {
-	const user = {
+	const [user] = useState({
 		avatar: avatar,
 		name: 'Jessica Randall',
 		location: 'London, United Kingdom',
@@ -35,7 +37,7 @@ function App() {
 				link: 'https://instagram.com'
 			}
 		]
-	};
+	});
 
 	return (
 		<>
