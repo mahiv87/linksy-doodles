@@ -30,8 +30,8 @@ Mobile:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/social-links-page-using-react-jkb3ajwJ9J)
-- Live Site URL: [Add live site URL here](https://mahiv87.github.io/linksy-doodles/)
+- Solution URL: [https://www.frontendmentor.io/solutions/social-links-page-using-react-jkb3ajwJ9J](https://www.frontendmentor.io/solutions/social-links-page-using-react-jkb3ajwJ9J)
+- Live Site URL: [https://mahiv87.github.io/linksy-doodles/](https://mahiv87.github.io/linksy-doodles/)
 
 ## My process
 
