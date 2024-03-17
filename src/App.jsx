@@ -8,7 +8,13 @@ function App() {
 		name: 'Jessica Randall',
 		location: 'London, United Kingdom',
 		headline: 'Front-end developer and avid reader.',
-		links: ['GitHub', 'Frontend Mentor', 'LinkedIn', 'Twitter', 'Instagram']
+		links: [
+			{
+				id: 1,
+				name: 'GitHub',
+				link: 'https://github.com'
+			}
+		]
 	};
 
 	return (

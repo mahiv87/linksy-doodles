@@ -1,9 +1,9 @@
 import styles from './ButtonComponent.module.css';
 
-function ButtonComponent() {
+function ButtonComponent({ name, link }) {
 	return (
-		<a href="#">
-			<p className={styles.linkButton}>GitHub</p>
+		<a href={link} target="_blank">
+			<p className={styles.linkButton}>{name}</p>
 		</a>
 	);
 }
