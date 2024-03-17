@@ -24,3 +24,10 @@
 	color: hsl(75, 94%, 57%);
 	margin: 5px 0px 10px 0px;
 }
+
+@media screen and (max-width: 468px) {
+	.card {
+		width: 342px;
+		padding: 25px 0px;
+	}
+}

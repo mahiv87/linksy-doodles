@@ -9,7 +9,7 @@ function CardComponent({ avatar, name, location, headline, links }) {
 			<img src={avatar} alt="Profile avatar" className={styles.avatar} />
 			<h1 className={styles.name}>{name}</h1>
 			<h4 className={styles.location}>{location}</h4>
-			<p>"{headline}"</p>
+			<p>&quot;{headline}&quot;</p>
 			{links &&
 				links.map((link) => (
 					<ButtonComponent name={link.name} link={link.link} key={link.id} />
