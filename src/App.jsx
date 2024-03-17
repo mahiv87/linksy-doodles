@@ -13,6 +13,26 @@ function App() {
 				id: 1,
 				name: 'GitHub',
 				link: 'https://github.com'
+			},
+			{
+				id: 2,
+				name: 'Frontend Mentor',
+				link: 'https://frontendmentor.io/'
+			},
+			{
+				id: 3,
+				name: 'LinkedIn',
+				link: 'https://linkedin.com'
+			},
+			{
+				id: 4,
+				name: 'Twitter',
+				link: 'https://twitter.com'
+			},
+			{
+				id: 5,
+				name: 'Instagram',
+				link: 'https://instagram.com'
 			}
 		]
 	};
