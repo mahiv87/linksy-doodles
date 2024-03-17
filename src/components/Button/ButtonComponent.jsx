@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import styles from './ButtonComponent.module.css';
 
 function ButtonComponent({ name, link }) {
@@ -7,5 +9,10 @@ function ButtonComponent({ name, link }) {
 		</a>
 	);
 }
+
+ButtonComponent.propTypes = {
+	name: PropTypes.string.isRequired,
+	link: PropTypes.string.isRequired
+};
 
 export default ButtonComponent;

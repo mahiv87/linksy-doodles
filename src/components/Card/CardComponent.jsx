@@ -1,6 +1,7 @@
+import PropTypes from 'prop-types';
+
 import ButtonComponent from '../Button/ButtonComponent';
 import styles from './CardComponent.module.css';
-// import avatar from '../../assets/images/avatar-jessica.jpeg';
 
 function CardComponent({ avatar, name, location, headline, links }) {
 	return (
@@ -16,5 +17,13 @@ function CardComponent({ avatar, name, location, headline, links }) {
 		</div>
 	);
 }
+
+CardComponent.propTypes = {
+	avatar: PropTypes.string.isRequired,
+	name: PropTypes.string.isRequired,
+	location: PropTypes.string,
+	headline: PropTypes.string,
+	links: PropTypes.array
+};
 
 export default CardComponent;
