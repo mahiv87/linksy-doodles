@@ -1,13 +1,11 @@
 import { useState } from 'react';
 import './App.css';
+import CardComponent from './components/Card/CardComponent';
 
 function App() {
 	return (
 		<>
-			<div>
-				Jessica Randall London, United Kingdom "Front-end developer and avid
-				reader." GitHub Frontend Mentor LinkedIn Twitter Instagram
-			</div>
+			<CardComponent />
 
 			{/* <div className="attribution">
 				Challenge by{' '}

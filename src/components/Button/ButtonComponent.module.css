@@ -1,0 +1,15 @@
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.linkButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 350px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: hsl(0, 0%, 20%);
+	font-weight: 700;
+}
