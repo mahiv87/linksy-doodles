@@ -1,8 +1,8 @@
 import { useState } from 'react';
 
-import './App.css';
 import CardComponent from './components/Card/CardComponent';
 import avatar from './assets/images/avatar-jessica.jpeg';
+import FooterComponent from './components/Footer/FooterComponent';
 
 function App() {
 	const [user] = useState({
@@ -48,18 +48,7 @@ function App() {
 				headline={user.headline}
 				links={user.links}
 			/>
-
-			{/* <div className="attribution">
-				Challenge by{' '}
-				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-					Frontend Mentor
-				</a>
-				. Coded by{' '}
-				<a href="https://github.com/mahiv87/linksy-doodles" target="_blank">
-					Marcus Herrera
-				</a>
-				.
-			</div> */}
+			<FooterComponent />
 		</>
 	);
 }
