@@ -11,5 +11,12 @@ a {
 	height: 50px;
 	border-radius: 10px;
 	background-color: hsl(0, 0%, 20%);
+	font-size: 16px;
 	font-weight: 700;
+}
+
+.linkButton:hover {
+	background-color: hsl(75, 94%, 57%);
+	color: hsl(0, 0%, 8%);
+	transition: all 200ms ease-in-out;
 }
