@@ -3,12 +3,23 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 500px;
+	width: 400px;
 	background-color: hsl(0, 0%, 12%);
 	border-radius: 12px;
+	padding: 50px 0px;
 }
 
 .avatar {
 	width: 120px;
 	border-radius: 50%;
+}
+
+.name {
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+
+.location {
+	color: hsl(75, 94%, 57%);
+	margin: 5px 0px 10px 0px;
 }

@@ -6,8 +6,8 @@ function CardComponent() {
 	return (
 		<div className={styles.card}>
 			<img src={avatar} alt="Profile avatar" className={styles.avatar} />
-			<h1>Jessica Randall</h1>
-			<h4>London, United Kingdom</h4>
+			<h1 className={styles.name}>Jessica Randall</h1>
+			<h4 className={styles.location}>London, United Kingdom</h4>
 			<p>"Front-end developer and avid reader."</p>
 			<ButtonComponent />
 		</div>
